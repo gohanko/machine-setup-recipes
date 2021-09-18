@@ -2,6 +2,8 @@ manage_package:
   add_repository:
     dnf:
       - https://download.opensuse.org/repositories/home:mkittler/Fedora_34/home:mkittler.repo
+    flatpak:
+      - flathub https://flathub.org/repo/flathub.flatpakrepo
   install:
     dnf:
       - syncthingtray
