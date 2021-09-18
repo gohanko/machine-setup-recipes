@@ -10,12 +10,12 @@ manage_package:
       - org.keepassxc.KeePassXC
 configure_package:
   firefox:
-    config:
+    files:
       copy_from: ./configurations/firefox/distribution/
       copy_to: /usr/lib64/firefox/distribution/
   vscode:
     install_extension:
       - pkief.material-icon-theme
-    config: 
+    files: 
       copy_from: ./configurations/vscode/settings.json
       copy_to: /home/ygz/config/Code/User/settings.json
