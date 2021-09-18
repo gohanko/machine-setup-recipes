@@ -27,4 +27,4 @@ configure_package:
       - pkief.material-icon-theme
     files: 
       copy_from: ./configurations/vscode/settings.json
-      copy_to: /home/ygz/.var/app/com.visualstudio.code/config/Code/settings.json
+      copy_to: /home/ygz/.var/app/com.visualstudio.code/config/Code/User/settings.json
