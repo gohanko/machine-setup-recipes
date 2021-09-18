@@ -1,0 +1,68 @@
+{
+    "policies": {
+        "DNSOverHTTPS": {
+            "Enabled": true
+        },
+        "SearchEngines": {
+            "Default": "DuckDuckGo"
+        },
+        "SearchSuggestEnabled": false,
+        "EnableTrackingProtection": {
+            "Value": true,
+            "Cryptomining": true,
+            "Fingerprinting": true
+        },
+        "DisablePocket": true,
+        "Cookies": {
+            "Default": true,
+            "AcceptThirdParty": "always",
+            "ExpireAtSessionEnd": false,
+            "RejectTracker": true
+        },
+        "OfferToSaveLogins": false,
+        "DisableTelemetry": true,
+        "DisableFirefoxStudies": true,
+        "Extensions": {
+            "Install": [
+                "https://addons.mozilla.org/firefox/downloads/file/3814538/latest.xpi",
+                "https://addons.mozilla.org/firefox/downloads/file/3682334/latest.xpi",
+                "https://addons.mozilla.org/firefox/downloads/file/3716273/latest.xpi",
+                "https://addons.mozilla.org/firefox/downloads/file/3837362/latest.xpi"
+            ]
+        },
+        "Homepage": {
+            "URL": "about:home",
+            "StartPage": "homepage"
+        },
+        "Preferences": {
+            "dom.security.https_only_mode": {
+                "Value": true,
+                "Status": "user"
+            },
+            "browser.toolbars.bookmarks.visibility": {
+                "Value": "never",
+                "Status": "user"
+            },
+            "media.peerconnection.enabled": {
+                "Value": false,
+                "Status": "user"
+            },
+            "media.peerconnection.turn.disable": {
+                "Value": true,
+                "Status": "user"
+            },
+            "media.peerconnection.use_document_iceservers": {
+                "Value": false,
+                "Status": "user"
+            },
+            "media.peerconnection.video.enabled": {
+                "Value": false,
+                "Status": "user"
+            },
+            "media.peerconnection.identity.timeout": {
+                "Value": 1,
+                "Status": "user"
+            }
+        }
+    }
+}

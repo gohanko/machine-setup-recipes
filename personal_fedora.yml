@@ -1,0 +1,21 @@
+package:
+  add_repository:
+    dnf:
+      - https://download.opensuse.org/repositories/home:mkittler/Fedora_34/home:mkittler.repo
+  install:
+    dnf:
+      - syncthingtray
+    flatpak:
+      - com.github.johnfactotum.Foliate
+      - org.keepassxc.KeePassXC
+configuration:
+  firefox:
+    config:
+      copy_from: ./configurations/firefox/distribution/
+      copy_to: /usr/lib64/firefox/distribution/
+  vscode:
+    install_extension:
+      - pkief.material-icon-theme
+    config: 
+      copy_from: ./configurations/vscode/settings.json
+      copy_to: /home/ygz/config/Code/User/settings.json

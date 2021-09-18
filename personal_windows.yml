@@ -1,0 +1,27 @@
+manage_package:
+  install_chocolatey: true
+  install:
+    chocolatey:
+      - keepassxc
+      - firefox
+      - python
+      - qbittorrent
+      - syncthingtray
+      - 7zip
+      - vscode
+      - git
+      - discord
+      - microsoft-teams
+      - telegram
+      - spotify
+configure_package:
+  firefox:
+    files:
+      copy_from: ./configurations/firefox/distribution/
+      copy_to: C:\Program Files\Mozilla Firefox\distribution\
+  vscode:
+    install_extension:
+      - pkief.material-icon-theme
+    files:
+      copy_from: ./configurations/vscode/settings.json
+      copy_to: C:\Users\Yu\AppData\Roaming\Code\User\settings.json
