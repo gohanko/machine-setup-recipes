@@ -62,6 +62,10 @@
             "media.peerconnection.identity.timeout": {
                 "Value": 1,
                 "Status": "user"
+            },
+            "layout.css.devPixelsPerPx": {
+                "Value": 1.25,
+                "Status": "user"
             }
         }
     }
