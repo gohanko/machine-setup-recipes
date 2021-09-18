@@ -10,6 +10,11 @@ manage_package:
     flatpak:
       - com.github.johnfactotum.Foliate
       - org.keepassxc.KeePassXC
+      - org.qbittorrent.qBittorrent
+      - com.spotify.Client
+      - org.telegram.desktop
+      - com.visualstudio.code
+      - com.discordapp.Discord
 configure_package:
   firefox:
     files:
