@@ -1,4 +1,4 @@
-package:
+manage_package:
   add_repository:
     dnf:
       - https://download.opensuse.org/repositories/home:mkittler/Fedora_34/home:mkittler.repo
@@ -8,7 +8,7 @@ package:
     flatpak:
       - com.github.johnfactotum.Foliate
       - org.keepassxc.KeePassXC
-configuration:
+configure_package:
   firefox:
     config:
       copy_from: ./configurations/firefox/distribution/
