@@ -64,7 +64,7 @@
                 "Status": "user"
             },
             "layout.css.devPixelsPerPx": {
-                "Value": 1.25,
+                "Value": "1.25",
                 "Status": "user"
             }
         }
