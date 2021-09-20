@@ -3,8 +3,8 @@ manage_package:
     chocolatey:
       - keepassxc
       - firefox
-      - python
       - qbittorrent
+      - syncthing
       - syncthingtray
       - 7zip
       - vscode
